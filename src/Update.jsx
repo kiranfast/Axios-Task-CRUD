@@ -47,7 +47,7 @@ function Update() {
         <div className='mb-3'>
          <label htmlFor="phone">Phone:</label>
          <input type='text' name='phone' className='form-control' placeholder='Enter Your Mobile number'
-        value={values.phone} onChange={e=> setValues({...values,MobileNo:e.target.value})}/>
+        value={values.MobileNo} onChange={e=> setValues({...values,MobileNo:e.target.value})}/>
         </div>
         <button className='btn btn-success'> Update  </button>
         <Link to="/" className='btn btn-primary ms-3'> Back </Link>
